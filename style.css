@@ -145,3 +145,22 @@ main h3{
    color: #e6e6e6;
    text-align: center;
 }
+footer{
+   background-color: #0d2a46;
+   color: #e6e6e6;
+   position: absolute;
+   bottom: 0;
+   padding: 1rem;
+   width: 100%;
+   font-size: 1rem;
+   text-align: center;
+}
+footer a{
+   text-decoration: none;
+   color: #0b85c2;
+   font-weight: 700;
+}
+#api{
+   margin-top: .4rem;
+   font-size: .7rem;
+}

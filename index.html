@@ -16,52 +16,62 @@
          <img src="./Logo/ClimAki-icon.png" alt="logo climaki">
       </h1>
    </nav>
-      <main>
-         <div id="form-container">
-            <h3>Pesquise o clima de qualquer cidade do mundo:</h3>
-            <div id="input-form-container">
-               <input type="text" autocomplete="off" placeholder="ex: Barcelona">
-               <button id="search" class="material-symbols-outlined">
-                  search
-               </button>
-            </div>
+   <main>
+      <div id="form-container">
+         <h3>Pesquise o clima de qualquer cidade do mundo:</h3>
+         <div id="input-form-container">
+            <input type="text" autocomplete="off" placeholder="ex: Barcelona">
+            <button id="search" class="material-symbols-outlined">
+               search
+            </button>
          </div>
-         <section id="weather-datas" class="hide">
-            <h2>
-               <i class="material-symbols-outlined">pin_drop</i>
-               <span id="city-name"></span>
-               <img id="country-flag">
-            </h2>
-            <p id="temperature"><span ></span>&deg;C</p>
-            <div id="description-container">
-               <p id="weather-description"></p>
-               <img id="description-icon" src="" alt="">
-            </div>
-            <div id="details-container">
-               <p id="thermal-sensation" title="Sensação Térmica">
-                  <i class="material-symbols-outlined">thermostat</i>
-                  <span></span>&deg;C
-               </p>
-               <p id="wind-speed" title="Velocidade do Vento">
-                  <i class="material-symbols-outlined">air</i>
-                  <span></span>
-                  km/h
-               </p>
-               <p id="pressure" title="Pressão Atmosférica">
-                  <i class="material-symbols-outlined">stat_minus_3</i>
-                  <span></span>
-                  mb
-               </p>
-               <p id="humidity" title="Umidade">
-                  <i class="material-symbols-outlined">humidity_mid</i>
-                  <span></span>
-                  %
-               </p>
-            </div>
-         </section>
-         <div id="error-container" class="hide">
-            <p>Não foi possivel encontrar o clima para essa cidade. Tente novamente.</p>
+      </div>
+      <section id="weather-datas" class="hide">
+         <h2>
+            <i class="material-symbols-outlined">pin_drop</i>
+            <span id="city-name"></span>
+            <img id="country-flag">
+         </h2>
+         <p id="temperature"><span ></span>&deg;C</p>
+         <div id="description-container">
+            <p id="weather-description"></p>
+            <img id="description-icon" src="" alt="">
          </div>
-      </main>
+         <div id="details-container">
+            <p id="thermal-sensation" title="Sensação Térmica">
+               <i class="material-symbols-outlined">thermostat</i>
+               <span></span>&deg;C
+            </p>
+            <p id="wind-speed" title="Velocidade do Vento">
+               <i class="material-symbols-outlined">air</i>
+               <span></span>
+               km/h
+            </p>
+            <p id="pressure" title="Pressão Atmosférica">
+               <i class="material-symbols-outlined">stat_minus_3</i>
+               <span></span>
+               mb
+            </p>
+            <p id="humidity" title="Umidade">
+               <i class="material-symbols-outlined">humidity_mid</i>
+               <span></span>
+               %
+            </p>
+         </div>
+      </section>
+      <div id="error-container" class="hide">
+         <p>Não foi possivel encontrar o clima para essa cidade. Tente novamente.</p>
+      </div>
+   </main>
+   <footer>
+      <p>
+         Desenvolvido por 
+         <a href="https://www.linkedin.com/in/vini-alves-xs/" target="_blank" >
+            Vinícius Alves
+            <i class="material-symbols-outlined">arrow_outward</i>
+         </a>
+      </p>
+      <p id="api">API consumida: <a href="https://openweathermap.org/" target="_blank">OpenWeather</a></p>
+   </footer>
 </body>
 </html>
