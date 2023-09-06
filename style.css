@@ -160,6 +160,9 @@ footer a{
    color: #0b85c2;
    font-weight: 700;
 }
+footer a:hover{
+   text-decoration: underline;
+}
 #api{
    margin-top: .4rem;
    font-size: .7rem;
