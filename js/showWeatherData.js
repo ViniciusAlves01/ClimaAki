@@ -14,7 +14,7 @@ export async function showWeatherData(city){
       document.querySelector('#temperature span').textContent = parseInt(data.main.temp)
       document.querySelector('#weather-description').textContent = data.weather[0].description
       document.querySelector('#thermal-sensation span').textContent = parseInt(data.main.feels_like)
-      document.querySelector('#wind-speed span').textContent = data.wind.speed
+      document.querySelector('#wind-speed span').textContent = parseInt(data.wind.speed)
       document.querySelector('#pressure span').textContent = data.main.pressure
       document.querySelector('#humidity span').textContent = data.main.humidity
 
